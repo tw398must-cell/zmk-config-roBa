@@ -94,19 +94,10 @@
 &kp Q             &kp W         &kp E             &kp R             &kp T                                             &kp Y        &kp U  &lt 5 I    &kp O       &lt 5 P
 &kp A             &kp S         &kp D             &kp F             &kp G        &kp ESCAPE            &kp SQT        &kp H        &kp J  &kp K      &kp L       &kp SEMICOLON
 &mt LEFT_SHIFT Z  &kp X         &kp C             &kp V             &kp B        &kp TAB               &kp MINUS      &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 6 LANGUAGE_2  &lt 2 SPACE  &lt 3 LANGUAGE_1      &kp BACKSPACE  &lt 1 ENTER                                &kp ESCAPE
+&kp LCTRL         &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 6 LANGUAGE_2  &lt 1 SPACE  &lt 2 LANGUAGE_1      &kp BACKSPACE  &lt 3 ENTER                                &kp ESCAPE
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
-        };
-
-        SYMBOLS {
-            bindings = <
-&kp GRAVE  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                      &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS             &kp EQUAL
-&kp TILDE  &kp DOLLAR     &kp PERCENT   &kp CARET             &trans                 &trans      &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDERSCORE        &kp PLUS
-&trans     &kp EXCL       &kp AT_SIGN   &kp HASH              &trans                 &trans      &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp NON_US_BACKSLASH  &kp PIPE
-&trans     &trans         &trans        &trans                &trans                 &trans      &trans  &trans                                                                     &trans
-            >;
         };
 
         NUM {
@@ -115,6 +106,15 @@
 &kp SLASH        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &trans         &trans   &trans   &kp F5  &kp F6   &kp F7   &kp F8
 &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL      &trans   &kp ESC  &kp F1  &kp F2   &kp F3   &kp F4
 &trans           &trans           &trans           &trans           &trans        &trans         &kp DEL  &trans                             &trans
+            >;
+        };
+
+        SYMBOLS {
+            bindings = <
+&kp GRAVE  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                      &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS             &kp EQUAL
+&kp TILDE  &kp DOLLAR     &kp PERCENT   &kp CARET             &trans                 &trans      &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDERSCORE        &kp PLUS
+&trans     &kp EXCL       &kp AT_SIGN   &kp HASH              &trans                 &trans      &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp NON_US_BACKSLASH  &kp PIPE
+&trans     &trans         &trans        &trans                &trans                 &trans      &trans  &trans                                                                     &trans
             >;
         };
 
