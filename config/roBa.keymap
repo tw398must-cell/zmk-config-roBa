@@ -41,19 +41,19 @@
             key-positions = <12 13>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
+        eq {
+            bindings = <&kp EQUAL>;
+            key-positions = <8 9>;
         };
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
+        qt {
+            bindings = <&kp SQT>;
             key-positions = <20 21>;
         };
 
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
+        backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <32 33>;
         };
     };
 
@@ -91,9 +91,9 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E             &kp R             &kp T                                             &kp Y        &kp U  &lt 5 I    &kp O       &lt 5 P
-&kp A             &kp S         &kp D             &kp F             &kp G        &kp ESCAPE            &kp SQT        &kp H        &kp J  &kp K      &kp L       &kp SEMICOLON
-&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V             &kp B        &kp TAB               &kp MINUS      &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT SLASH
+&kp Q             &kp W         &kp E             &kp R             &kp T                                             &kp Y        &kp U  &kp I      &kp O       &lt 5 P
+&kp A             &kp S         &kp D             &kp F             &kp G        &kp ESCAPE            &kp GRAVE      &kp H        &kp J  &kp K      &kp L       &kp SEMICOLON
+&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V             &kp B        &kp BACKSPACE         &kp MINUS      &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT SLASH
 &kp LCTRL         &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 6 LANGUAGE_2  &lt 1 SPACE  &lt 2 LANGUAGE_1      &kp BACKSPACE  &lt 3 ENTER                                &kp ESCAPE
             >;
 
@@ -102,28 +102,28 @@
 
         NUM {
             bindings = <
-&kp MINUS        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                              &trans   &kp F9  &kp F10  &kp F11  &kp F12
-&kp SLASH        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &trans         &trans   &trans   &kp F5  &kp F6   &kp F7   &kp F8
-&kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL      &trans   &kp ESC  &kp F1  &kp F2   &kp F3   &kp F4
-&trans           &trans           &trans           &trans           &trans        &trans         &kp DEL  &trans                             &trans
+&kp SLASH     &kp N7        &kp N8        &kp N9        &kp MINUS                          &trans  &kp F9  &kp F10  &kp F11  &kp F12
+&kp ASTERISK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS    &trans         &trans  &trans  &kp F5  &kp F6   &kp F7   &kp F8
+&kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &kp EQUAL      &trans  &trans  &kp F1  &kp F2   &kp F3   &kp F4
+&trans        &trans        &trans        &trans        &trans      &trans         &trans  &trans                            &trans
             >;
         };
 
         SYMBOLS {
             bindings = <
-&kp GRAVE  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                          &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS             &kp EQUAL
-&kp TILDE  &kp DOLLAR     &kp PERCENT   &kp CARET             &trans                 &trans      &trans      &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDERSCORE        &kp PLUS
-&trans     &kp EXCL       &kp AT_SIGN   &kp HASH              &trans                 &trans      &trans      &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp NON_US_BACKSLASH  &kp PIPE
-&trans     &trans         &trans        &trans                &trans                 &trans      &kp DELETE  &trans                                                                     &trans
+&trans  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                          &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
+&trans  &kp DOLLAR     &kp PERCENT   &kp CARET             &trans                 &trans      &trans      &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans
+&trans  &kp EXCL       &kp AT_SIGN   &kp HASH              &trans                 &trans      &trans      &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans
+&trans  &trans         &trans        &trans                &trans                 &trans      &kp DELETE  &trans                                                       &trans
             >;
         };
 
         ARROW {
             bindings = <
-&kp ESC    &kp HOME      &kp UP    &kp LC(END)    &kp PG_UP                      &kp ESCAPE      &kp HOME            &kp UP_ARROW  &kp END              &kp PAGE_UP
-&kp TAB    &kp LEFT      &kp DOWN  &kp RIGHT      &kp PG_DN  &trans      &trans  &kp TAB         &kp LEFT            &kp DOWN      &kp RIGHT            &kp PAGE_DOWN
-&kp LSHFT  &kp LA(LEFT)  &trans    &kp LA(RIGHT)  &trans     &trans      &trans  &kp LEFT_SHIFT  &kp LA(LEFT_ARROW)  &trans        &kp LA(RIGHT_ARROW)  &trans
-&trans     &trans        &trans    &trans         &trans     &trans      &trans  &trans                                                                 &trans
+&trans  &kp HOME      &kp UP    &kp LC(END)    &kp PG_UP                      &trans  &kp HOME            &kp UP_ARROW  &kp END              &kp PAGE_UP
+&trans  &kp LEFT      &kp DOWN  &kp RIGHT      &kp PG_DN  &trans      &trans  &trans  &kp LEFT            &kp DOWN      &kp RIGHT            &kp PAGE_DOWN
+&trans  &kp LA(LEFT)  &trans    &kp LA(RIGHT)  &trans     &trans      &trans  &trans  &kp LA(LEFT_ARROW)  &trans        &kp LA(RIGHT_ARROW)  &trans
+&trans  &trans        &trans    &trans         &trans     &trans      &trans  &trans                                                         &trans
             >;
         };
 
