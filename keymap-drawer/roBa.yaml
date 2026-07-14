@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - BACKSPACE
+  - DELETE
   - '-'
   - N
   - M
@@ -137,24 +137,24 @@ layers:
   - HOME
   - UP
   - Ctl+END
-  - PG UP
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
   - UP ARROW
   - END
-  - PAGE UP
-  - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
-  - RIGHT
-  - PG DN
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
   - DOWN
   - RIGHT
-  - PAGE DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Alt+LEFT
   - {t: ▽, type: trans}
@@ -249,7 +249,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
