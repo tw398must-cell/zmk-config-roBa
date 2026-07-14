@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - ESCAPE
+  - {t: ▽, type: trans}
   - '`'
   - H
   - J
@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - DELETE
+  - ESCAPE
   - '-'
   - N
   - M
@@ -38,12 +38,12 @@ layers:
   - LCTRL
   - LEFT ALT
   - LEFT COMMAND
-  - {t: LANGUAGE 2, h: '6'}
+  - {t: LANGUAGE 2, h: BT}
   - {t: SPACE, h: NUM}
   - {t: LANGUAGE 1, h: SYMBOLS}
   - BACKSPACE
   - {t: ENTER, h: ARROW}
-  - ESCAPE
+  - DEL
   NUM:
   - /
   - '7'
@@ -92,8 +92,8 @@ layers:
   - {t: ▽, type: trans}
   - '&'
   - '*'
-  - (
-  - )
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - (
   - )
@@ -129,14 +129,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - DELETE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   ARROW:
   - {t: ▽, type: trans}
   - HOME
   - UP
-  - Ctl+END
+  - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
@@ -193,20 +193,20 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+V
-  - {t: ▽, type: trans}
+  - CUT
+  - COPY
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
-  - TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+C
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PASTE
   - '&mkp MB4'
   - {t: ▽, type: trans}
   - '&mkp MB5'
@@ -226,9 +226,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+PAGE UP
+  - HOME
   - PAGE UP
-  - {t: ▽, type: trans}
+  - Ctl+Sft+TAB
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -237,20 +237,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+HOME
-  - Ctl+PAGE DOWN
+  - {t: ▽, type: trans}
+  - END
   - PAGE DOWN
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Ctl+END
-  - {t: ▽, type: trans}
+  - Ctl+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -264,7 +254,17 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '6':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  BT:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
