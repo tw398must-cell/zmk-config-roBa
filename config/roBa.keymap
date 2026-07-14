@@ -93,7 +93,7 @@
             bindings = <
 &kp Q             &kp W         &kp E             &kp R             &kp T                                             &kp Y        &kp U  &kp I      &kp O       &lt 5 P
 &kp A             &kp S         &kp D             &kp F             &kp G        &kp ESCAPE            &kp GRAVE      &kp H        &kp J  &kp K      &kp L       &kp SEMICOLON
-&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V             &kp B        &kp BACKSPACE         &kp MINUS      &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT SLASH
+&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V             &kp B        &kp DELETE            &kp MINUS      &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT SLASH
 &kp LCTRL         &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 6 LANGUAGE_2  &lt 1 SPACE  &lt 2 LANGUAGE_1      &kp BACKSPACE  &lt 3 ENTER                                &kp ESCAPE
             >;
 
@@ -120,10 +120,10 @@
 
         ARROW {
             bindings = <
-&trans  &kp HOME      &kp UP    &kp LC(END)    &kp PG_UP                      &trans  &kp HOME            &kp UP_ARROW  &kp END              &kp PAGE_UP
-&trans  &kp LEFT      &kp DOWN  &kp RIGHT      &kp PG_DN  &trans      &trans  &trans  &kp LEFT            &kp DOWN      &kp RIGHT            &kp PAGE_DOWN
-&trans  &kp LA(LEFT)  &trans    &kp LA(RIGHT)  &trans     &trans      &trans  &trans  &kp LA(LEFT_ARROW)  &trans        &kp LA(RIGHT_ARROW)  &trans
-&trans  &trans        &trans    &trans         &trans     &trans      &trans  &trans                                                         &trans
+&trans  &kp HOME      &kp UP    &kp LC(END)    &trans                      &trans  &kp HOME            &kp UP_ARROW  &kp END              &trans
+&trans  &kp LEFT      &kp DOWN  &kp RIGHT      &trans  &trans      &trans  &trans  &kp LEFT            &kp DOWN      &kp RIGHT            &trans
+&trans  &kp LA(LEFT)  &trans    &kp LA(RIGHT)  &trans  &trans      &trans  &trans  &kp LA(LEFT_ARROW)  &trans        &kp LA(RIGHT_ARROW)  &trans
+&trans  &trans        &trans    &trans         &trans  &trans      &trans  &trans                                                         &trans
             >;
         };
 
@@ -140,7 +140,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                            &kp LC(PAGE_UP)    &kp PAGE_UP    &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &kp LC(HOME)  &kp LC(PAGE_DOWN)  &kp PAGE_DOWN  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans        &trans             &trans         &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LC(END)   &trans             &trans         &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans        &trans                                            &trans
             >;
         };
