@@ -311,11 +311,16 @@ layers:
 combos:
 - p: [11, 12]
   k: TAB
+  l: [default]
 - p: [12, 13]
   k: Sft+TAB
+  l: [default]
 - p: [8, 9]
   k: '='
+  l: [default]
 - p: [20, 21]
   k: ''''
+  l: [default]
 - p: [32, 33]
   k: \
+  l: [default]
