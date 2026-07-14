@@ -8,7 +8,7 @@ layers:
   - T
   - Y
   - U
-  - {t: I, h: SCROLL}
+  - I
   - O
   - {t: P, h: SCROLL}
   - A
@@ -17,7 +17,7 @@ layers:
   - F
   - G
   - ESCAPE
-  - ''''
+  - '`'
   - H
   - J
   - K
@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - TAB
+  - BACKSPACE
   - '-'
   - N
   - M
@@ -40,70 +40,26 @@ layers:
   - LEFT COMMAND
   - {t: LANGUAGE 2, h: '6'}
   - {t: SPACE, h: NUM}
-  - {t: LANGUAGE 1, h: ARROW}
+  - {t: LANGUAGE 1, h: SYMBOLS}
   - BACKSPACE
-  - {t: ENTER, h: SYMBOLS}
+  - {t: ENTER, h: ARROW}
   - ESCAPE
-  SYMBOLS:
-  - '`'
-  - '&'
-  - '*'
-  - (
-  - )
-  - {t: ▽, type: trans}
-  - (
-  - )
-  - '-'
-  - '='
-  - '~'
-  - $
-  - '%'
-  - ^
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - _
-  - +
-  - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '{'
-  - '}'
-  - \
-  - '|'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
   NUM:
+  - /
+  - '7'
+  - '8'
+  - '9'
   - '-'
-  - KP 7
-  - KP 8
-  - KP 9
-  - +
   - {t: ▽, type: trans}
   - F9
   - F10
   - F11
   - F12
-  - /
-  - KP 4
-  - KP 5
-  - KP 6
   - '*'
+  - '4'
+  - '5'
+  - '6'
+  - +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -111,14 +67,14 @@ layers:
   - F6
   - F7
   - F8
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
+  - '0'
+  - '1'
+  - '2'
+  - '3'
   - .
   - '='
   - {t: ▽, type: trans}
-  - ESC
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
@@ -129,40 +85,84 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - DEL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  SYMBOLS:
+  - {t: ▽, type: trans}
+  - '&'
+  - '*'
+  - (
+  - )
+  - {t: ▽, type: trans}
+  - (
+  - )
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $
+  - '%'
+  - ^
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '['
+  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '!'
+  - '@'
+  - '#'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '{'
+  - '}'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   ARROW:
-  - ESC
+  - {t: ▽, type: trans}
   - HOME
   - UP
   - Ctl+END
   - PG UP
-  - ESCAPE
+  - {t: ▽, type: trans}
   - HOME
   - UP ARROW
   - END
   - PAGE UP
-  - TAB
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN
   - RIGHT
   - PG DN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - TAB
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN
   - RIGHT
   - PAGE DOWN
-  - LSHFT
+  - {t: ▽, type: trans}
   - Alt+LEFT
   - {t: ▽, type: trans}
   - Alt+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT SHIFT
+  - {t: ▽, type: trans}
   - Alt+LEFT ARROW
   - {t: ▽, type: trans}
   - Alt+RIGHT ARROW
@@ -172,9 +172,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:
   - {t: ▽, type: trans}
@@ -193,7 +193,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+V
+  - Gui+V
   - {t: ▽, type: trans}
   - '&mkp MB1'
   - '&mkp MB3'
@@ -205,7 +205,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+C
+  - Gui+C
   - {t: ▽, type: trans}
   - '&mkp MB4'
   - {t: ▽, type: trans}
@@ -228,9 +228,9 @@ layers:
   - {t: ▽, type: trans}
   - Ctl+PAGE UP
   - PAGE UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -313,9 +313,9 @@ combos:
   k: TAB
 - p: [12, 13]
   k: Sft+TAB
-- p: [11, 10]
-  k: '&to_layer_0 INT_MUHENKAN'
-- p: [20, 21]
-  k: '"'
-- p: [24, 25]
+- p: [8, 9]
   k: '='
+- p: [20, 21]
+  k: ''''
+- p: [32, 33]
+  k: \
