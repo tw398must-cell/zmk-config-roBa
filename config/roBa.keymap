@@ -34,26 +34,31 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <11 12>;
+            layers = <0>;
         };
 
         shift_tab {
             bindings = <&kp LS(TAB)>;
             key-positions = <12 13>;
+            layers = <0>;
         };
 
         eq {
             bindings = <&kp EQUAL>;
             key-positions = <8 9>;
+            layers = <0>;
         };
 
         qt {
             bindings = <&kp SQT>;
             key-positions = <20 21>;
+            layers = <0>;
         };
 
         backslash {
             bindings = <&kp BACKSLASH>;
             key-positions = <32 33>;
+            layers = <0>;
         };
     };
 
